@@ -1,0 +1,37 @@
+{
+  "grupe": ["A1", "A2", "A3"],
+  "materii": {
+    "Algebra": {
+      "profesor": "Maria Ionescu",
+      "grupe": ["A1", "A2"]
+    },
+    "Geometrie": {
+      "profesor": "Cristina Popescu",
+      "grupe": ["A1", "A3"]
+    },
+    "Analiza": {
+      "profesor": "Alexandru Toma",
+      "grupe": ["A2", "A3"]
+    }
+  },
+  "ore": ["08", "10", "12", "14", "16", "18"],
+  "profesori": {
+    "Maria Ionescu": {
+      "indisponibilitati": { "zile": ["luni"], "ore": ["08"] },
+      "max_ore_pe_zi": 6
+    },
+    "Cristina Popescu": {
+      "indisponibilitati": { "zile": ["miercuri"], "ore": ["10", "12"] },
+      "max_ore_pe_zi": 8
+    },
+    "Alexandru Toma": {
+      "indisponibilitati": { "zile": ["vineri"], "ore": ["14"] },
+      "max_ore_pe_zi": 8
+    }
+  },
+  "sali": {
+    "curs": ["C201", "C202"],
+    "seminar": ["S401", "S402", "S403"]
+  },
+  "zile": ["luni", "marti", "miercuri", "joi", "vineri"]
+}
